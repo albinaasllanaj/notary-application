@@ -18,6 +18,8 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@100;700&family=Roboto+Slab:wght@200;400;700&display=swap" rel="stylesheet">
     
   </head>
   <body>
@@ -42,7 +44,25 @@
         </div>
 
         <!--Sidebar Content-->
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <!--Search Widget-->
+          <div class="card my-5">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input type="text" class="form-control" id="keyword" placeholder="Type something...">
+                <span class="input-group-btn">
+                  <button class="btn" type="button">Search</button>
+                </span>
+              </div>
+            </div>
+            <div class="card-footer" id="searchstat">
+
+            </div>
+          </div>
+          <!--Select a book widget-->
+
+        </div>
       </div>
     </div>
   </body>
