@@ -1,0 +1,13 @@
+body{
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(214,113,170,1) 0%, rgba(107,117,196,1) 100%);
+}
+
+.text{
+    color: #fff;
+    margin-top: 60px;
+    position: relative;
+    top: 70px;
+}
+.responsive{
+    margin-top: 40px;
+}
