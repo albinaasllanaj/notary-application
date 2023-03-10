@@ -6,6 +6,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(214,113,170,1) 0%
 :root{
     --main-font: 'Roboto Slab', serif;
 }
+
 .text{
     color: #fff;
     margin-top: 60px;
